@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Python com Flask!</title>
-          
+    <title>Formulário no Flask</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">    
 </head>
 <body>
     <h1>Bem-vindo à minha página web</h1>
     <p>Esta é uma página de exemplo.</p>
     <hr>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit exercitationem modi rem voluptates ab provident sed ducimus quidem perferendis doloribus. Hic molestias laudantium dolorum repudiandae vitae quia harum atque adipisci.</p>
+    
+    
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
 </html>
